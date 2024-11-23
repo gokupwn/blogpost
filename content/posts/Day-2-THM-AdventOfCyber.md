@@ -1,13 +1,9 @@
 +++
-title = 'Advent Of Cyber | Day-2- Santa's Naughty & Nice Log - Log File Analysis'
+title = "Advent Of Cyber | Day-2- Santa's Naughty & Nice Log - Log File Analysis"
 date = 2022-12-04T23:25:34+01:00
 draft = false
-tldr = Log File Analysis
 +++
 
----
-
----
 
 ### Use the `ls` command to list the files present in the current directory. How many log files are present?
 
@@ -103,4 +99,3 @@ SSHD.log:THM{STOLENSANTASLIST}
 ### Ending:
 
 I hope you enjoyed this walkthrough and you learned something new ;).
-

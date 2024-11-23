@@ -4,34 +4,48 @@
     
         
         <url>
-            <loc>http://localhost:1313/posts/intro/</loc>
+            <loc>https://gokupwn.github.io/posts/about/</loc>
+            <lastmod>2024-11-23T21:41:45+01:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gokupwn.github.io/</loc>
+            <lastmod>2024-11-23T21:41:45+01:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gokupwn.github.io/posts/</loc>
+            <lastmod>2024-11-23T21:41:45+01:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://gokupwn.github.io/posts/intro/</loc>
             <lastmod>2024-11-23T20:36:45+01:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://localhost:1313/</loc>
-            <lastmod>2024-11-23T20:36:45+01:00</lastmod>
+            <loc>https://gokupwn.github.io/posts/day-2-thm-adventofcyber/</loc>
+            <lastmod>2022-12-04T23:25:34+01:00</lastmod>
         </url>
         
     
         
         <url>
-            <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2024-11-23T20:36:45+01:00</lastmod>
+            <loc>https://gokupwn.github.io/categories/</loc>
         </url>
         
     
         
         <url>
-            <loc>http://localhost:1313/categories/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>http://localhost:1313/tags/</loc>
+            <loc>https://gokupwn.github.io/tags/</loc>
         </url>
         
     

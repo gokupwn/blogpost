@@ -1,4 +1,4 @@
-baseURL = "https://gokupwn.github.io/"
+baseURL = "https://blog.goku.pw/"
 languageCode = "en-us"
 title = "My Blog"
 theme = "hugo-theme-console"

@@ -1,0 +1,32 @@
+name: Deploy Hugo Blog to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+      with:
+        submodules: recursive  # Ensures themes are included
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'  # Use the latest version of Hugo
+
+    - name: Build Hugo Site
+      run: hugo --minify  # Build the site with optimization
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        publish_dir: ./public
+        publish_branch: main
+        external_repository: gokupwn/gokupwn.github.io

@@ -22,7 +22,7 @@ jobs:
         extended: true
 
     - name: Build Hugo Site
-      run: hugo --minify --ignoreErrors
+      run: hugo --minify
 
     - name: Add CNAME File
       run: echo "blog.goku.pw" > ./public/CNAME

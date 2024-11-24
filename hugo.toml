@@ -28,10 +28,5 @@ pagerSize = 10
     url = "/about/"
     weight = 2
 
-[social]
-  twitter = "https://x.com/gokupwn"
-  github = "https://github.com/gokupwn"
-  linkedin = "https://linkedin.com/in/hassan-al-achek"
-
 
 

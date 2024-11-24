@@ -29,11 +29,9 @@ pagerSize = 10
     weight = 2
 
 [social]
-twitter= "https://x.com/gokupwn"
-github= "https://github.com/gokupwn"
-linkedin= "https://www.linkedin.com/hassan-al-achek"
-instagram = "https://instagram.com/hassanalachek"
-dribbble = "#"
-youtube = "#"
+  twitter = "https://x.com/gokupwn"
+  github = "https://github.com/gokupwn"
+  linkedin = "https://linkedin.com/in/hassan-al-achek"
+
 
 

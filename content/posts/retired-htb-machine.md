@@ -694,11 +694,11 @@ DESCRIPTION
 
 - Actually the probem here is not with the read function itslef. It's with reading the message len from the user input and then attempt to read `msglen` from the user input into a limited size `buffer` variable.
 
-![Image alt](/buffer-1.png)
+![Image alt](/images/buffer-1.png)
 
 - So now if i enter the `msglen` as `520 bytes` the program will attempt to read 520 bytes from the `sockfd` into a 512 bytes `buffer` variable. Overflow!!!
 
-![Image alt](/buffer-2.png)
+![Image alt](/images/buffer-2.png)
 
 - The most important question how to communicate wirh a process litning at localhost?
   - Do you miss me?
@@ -1029,10 +1029,10 @@ DESCRIPTION
 
 ###### Prepare our gadets:
 
-> A ROP chain, short for "return-oriented programming chain", is a sequence of gadget instructions that are strung together to form a malicious program. A gadget is a short sequence of instructions that ends with a return instruction, and is often found in compiled code. By chaining gadgets together, an attacker can construct a program that executes arbitrary code, even in environments where traditional forms of injection (such as buffer overflows) are prevented. This technique is often used in attacks that exploit vulnerabilities in software. (ChatGPT)
+A ROP chain, short for "return-oriented programming chain", is a sequence of gadget instructions that are strung together to form a malicious program. A gadget is a short sequence of instructions that ends with a return instruction, and is often found in compiled code. By chaining gadgets together, an attacker can construct a program that executes arbitrary code, even in environments where traditional forms of injection (such as buffer overflows) are prevented. This technique is often used in attacks that exploit vulnerabilities in software. (ChatGPT)
 
-> ROP chain: build your own program inside another program, using assembly instructions (gadgets)  
-> (Hassan Al Achek :p)
+ROP chain: build your own program inside another program, using assembly instructions (gadgets)  
+(Hassan Al Achek :p)
 
 - You can use `ropper` to get `mprotect` gadget.
 - Or use `pwntools` a python library for binary exploitaion (i will use pwntools)

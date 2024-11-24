@@ -1,52 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    
-        
-        <url>
-            <loc>https://gokupwn.github.io/posts/about/</loc>
-            <lastmod>2024-11-23T21:41:45+01:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://gokupwn.github.io/</loc>
-            <lastmod>2024-11-23T21:41:45+01:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://gokupwn.github.io/posts/</loc>
-            <lastmod>2024-11-23T21:41:45+01:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://gokupwn.github.io/posts/intro/</loc>
-            <lastmod>2024-11-23T20:36:45+01:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://gokupwn.github.io/posts/day-2-thm-adventofcyber/</loc>
-            <lastmod>2022-12-04T23:25:34+01:00</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://gokupwn.github.io/categories/</loc>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://gokupwn.github.io/tags/</loc>
-        </url>
-        
-    
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-24T14:51:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-11-24T14:51:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/test/</loc>
+    <lastmod>2024-11-24T14:51:18+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/about/</loc>
+    <lastmod>2024-11-24T14:40:41+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/day-2-thm-adventofcyber/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/adventofcyber/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ctf/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/cyber-security/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/log-analysis/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/thm/</loc>
+    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url>
 </urlset>

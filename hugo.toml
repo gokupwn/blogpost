@@ -1,4 +1,35 @@
 baseURL = "https://gokupwn.github.io/"
 languageCode = "en-us"
-title = "My Blog@gokupwn"
-theme = "hugo-theme-console"
+title = "My Blog"
+theme = "hugo-theme-novela"
+paginate = 10
+
+[params]
+  mainSections = ["posts"]
+  showReadingTime = true
+  showDate = true
+  author = "Hassan AL ACHEK"
+  description = "A brief description of your blog."
+  sidebar_title = "About Me"
+  sidebar_content = "This is the sidebar content. Add some personal details here."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[social]
+twitter= "https://x.com/gokupwn"
+github= "https://github.com/gokupwn"
+linkedin= "https://www.linkedin.com/hassan-al-achek"
+instagram = "https://instagram.com/hassanalachek"
+dribbble = "#"
+youtube = "#"
+
+

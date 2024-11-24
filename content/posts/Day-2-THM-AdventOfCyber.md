@@ -2,8 +2,14 @@
 title = "Advent Of Cyber | Day-2- Santa's Naughty & Nice Log - Log File Analysis"
 date = 2022-12-04T23:25:34+01:00
 draft = false
+type = "post"
+excerpt = "Logs Analysis"
+authors = ["Hassan AL ACHEK"]
+tags = ["CTF", "Log Analysis", "THM", "AdventOfCyber", ]
+categories = ["Cyber Security"]
+readingTime = 5  
+hero = "/images/advthm.png"
 +++
-
 
 ### Use the `ls` command to list the files present in the current directory. How many log files are present?
 

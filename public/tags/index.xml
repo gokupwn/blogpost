@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My Blog@gokupwn</title>
-    <link>https://gokupwn.github.io/tags/</link>
-    <description>Recent content in Tags on My Blog@gokupwn</description>
+    <title>Tags on My Blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on My Blog</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <atom:link href="https://gokupwn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Dec 2022 23:25:34 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AdventOfCyber</title>
+      <link>http://localhost:1313/tags/adventofcyber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/adventofcyber/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CTF</title>
+      <link>http://localhost:1313/tags/ctf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Log Analysis</title>
+      <link>http://localhost:1313/tags/log-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/log-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>THM</title>
+      <link>http://localhost:1313/tags/thm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/thm/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

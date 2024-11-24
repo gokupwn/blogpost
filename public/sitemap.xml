@@ -11,6 +11,30 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-11-24T14:40:41+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/ctf/</loc>
+    <lastmod>2023-01-03T16:18:46+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hacking/</loc>
+    <lastmod>2023-01-03T16:18:46+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/htb/</loc>
+    <lastmod>2023-01-03T16:18:46+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
+    <lastmod>2023-01-03T16:18:46+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2023-01-03T16:18:46+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/updown-htb-machine/</loc>
+    <lastmod>2023-01-03T16:18:46+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/shoppy-htb-machine/</loc>
+    <lastmod>2022-12-17T16:14:16+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/photobomb-htb-machine/</loc>
+    <lastmod>2022-12-15T15:44:32+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/day-2-thm-adventofcyber/</loc>
     <lastmod>2022-12-04T23:25:34+01:00</lastmod>
   </url><url>
@@ -20,19 +44,16 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2022-12-04T23:25:34+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ctf/</loc>
-    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/cyber-security/</loc>
     <lastmod>2022-12-04T23:25:34+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/log-analysis/</loc>
     <lastmod>2022-12-04T23:25:34+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-12-04T23:25:34+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/thm/</loc>
     <lastmod>2022-12-04T23:25:34+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/retired-htb-machine/</loc>
+    <lastmod>2022-05-12T16:05:10+01:00</lastmod>
   </url>
 </urlset>

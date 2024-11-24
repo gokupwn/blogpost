@@ -15,6 +15,11 @@ pagerSize = 10
   description = "A brief description of your blog."
   sidebar_title = "About Me"
   sidebar_content = "This is the sidebar content. Add some personal details here."
+  Social = [
+        { name = "github", url = "https://github.com/gokupwn" },
+        { name = "twitter", url = "https://x.com/gokupwn" },
+        { name = "linkedin", url = "https://instagram.com/hassanalachek" }
+    ]
 
 
 [menu]
@@ -27,6 +32,7 @@ pagerSize = 10
     name = "About"
     url = "/about/"
     weight = 2
+
 
 
 

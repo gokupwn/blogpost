@@ -18,11 +18,11 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: 'latest'
+        hugo-version: '0.125.1'
         extended: true
 
     - name: Build Hugo Site
-      run: hugo
+      run: hugo --minify
 
     - name: Add CNAME File
       run: echo "blog.goku.pw" > ./public/CNAME

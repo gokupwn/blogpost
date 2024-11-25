@@ -6,8 +6,15 @@
     <description>Recent content in Posts on My Blog</description>
     <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 14:40:41 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 12:34:24 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Password Cracking - Part 1</title>
+      <link>http://localhost:1313/posts/windows-password-cracking-1/</link>
+      <pubDate>Mon, 25 Nov 2024 12:34:24 +0100</pubDate>
+      <guid>http://localhost:1313/posts/windows-password-cracking-1/</guid>
+      <description>Authentication: Of course, you have heard this question from an aging person: &amp;ldquo;Who are you? You are the child of who?&amp;rdquo; (Enta eben min :p)&#xA;Yeah, and that&amp;rsquo;s exactly what we call authentication. The person wants to know, &amp;ldquo;Who are you?&amp;rdquo; Once they know who you are, they’ll say, &amp;ldquo;Ohh, that&amp;rsquo;s you, enter, enter.&amp;rdquo; (In Lebanon, they’ll say, &amp;ldquo;Ahhh, eben flen ta3a yl3an le7yet bayak&amp;rdquo; – okay, at least in Baalbeck.</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/posts/about/</link>

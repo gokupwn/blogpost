@@ -946,11 +946,11 @@ xmlns="http://www.w3.org/2000/svg"
 <p>Actually the probem here is not with the read function itslef. It&rsquo;s with reading the message len from the user input and then attempt to read <code>msglen</code> from the user input into a limited size <code>buffer</code> variable.</p>
 </li>
 </ul>
-<p><img src="/buffer-1.png" alt="Image alt"></p>
+<p><img src="/images/buffer-1.png" alt="Image alt"></p>
 <ul>
 <li>So now if i enter the <code>msglen</code> as <code>520 bytes</code> the program will attempt to read 520 bytes from the <code>sockfd</code> into a 512 bytes <code>buffer</code> variable. Overflow!!!</li>
 </ul>
-<p><img src="/buffer-2.png" alt="Image alt"></p>
+<p><img src="/images/buffer-2.png" alt="Image alt"></p>
 <ul>
 <li>The most important question how to communicate wirh a process litning at localhost?
 <ul>
@@ -1255,13 +1255,9 @@ I thinked about exploiting SQL injection vuln but the application prepare query 
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">       mprotect()  changes  the access protections for the calling process&#39;</span>s memory pages containing any part of the address range
 </span></span><span style="display:flex;"><span>       in the interval <span style="color:#f92672">[</span>addr, addr+len-1<span style="color:#f92672">]</span>.  addr must be aligned to a page boundary.
 </span></span></code></pre></div><h6 id="prepare-our-gadets">Prepare our gadets:</h6>
-<blockquote>
 <p>A ROP chain, short for &ldquo;return-oriented programming chain&rdquo;, is a sequence of gadget instructions that are strung together to form a malicious program. A gadget is a short sequence of instructions that ends with a return instruction, and is often found in compiled code. By chaining gadgets together, an attacker can construct a program that executes arbitrary code, even in environments where traditional forms of injection (such as buffer overflows) are prevented. This technique is often used in attacks that exploit vulnerabilities in software. (ChatGPT)</p>
-</blockquote>
-<blockquote>
 <p>ROP chain: build your own program inside another program, using assembly instructions (gadgets)<br>
 (Hassan Al Achek :p)</p>
-</blockquote>
 <ul>
 <li>You can use <code>ropper</code> to get <code>mprotect</code> gadget.</li>
 <li>Or use <code>pwntools</code> a python library for binary exploitaion (i will use pwntools)</li>
@@ -1437,8 +1433,28 @@ I thinked about exploiting SQL injection vuln but the application prepare query 
     <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
         <div class="post-row">
             
-                <a href="/posts/about/" class="article-link"
+                <a href="/posts/windows-password-cracking-1/" class="article-link"
                  id="article-link-bigger">
+                    <div>
+                        <div class="image-container">
+                            <img src="/images/default.jpg" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Windows Password Cracking - Part 1
+                            </h2>
+                            <p class="article-excerpt">
+                                Windows Password Cracking Attack
+                            </p>
+                            <div class="article-metadata">
+                                November 25, 2024 · 3 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="/posts/about/" class="article-link"
+                >
                     <div>
                         <div class="image-container">
                             <img src="/images/whoami.webp" class="article-image" />
@@ -1452,27 +1468,6 @@ I thinked about exploiting SQL injection vuln but the application prepare query 
                             </p>
                             <div class="article-metadata">
                                 November 24, 2024 · 1 min read
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            
-                <a href="/posts/updown-htb-machine/" class="article-link"
-                >
-                    <div>
-                        <div class="image-container">
-                            <img src="/images/updown.jpg" class="article-image" />
-                        </div>
-                        <div>
-                            <h2 class="article-title">
-                                UpDown From Hack The Box - Medium Linux Machine
-                            </h2>
-                            <p class="article-excerpt">
-                                Gaining access to a development web application&#39;s source code through an exposed .git repository, I discovered a time-limited file upload vulnerability through static code analysis. I exploited this vulnerability to gain access as the www-data user. By exploiting a setuid binary and the input() function behavior in Python 2, I was able to locally pivot to the developer user. Finally, I elevated my privileges to root by exploiting the easy_setup utility.
-
-                            </p>
-                            <div class="article-metadata">
-                                January 3, 2023 · 14 min read
                             </div>
                         </div>
                     </div>

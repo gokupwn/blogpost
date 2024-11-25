@@ -8,7 +8,7 @@ authors = ["Hassan AL ACHEK"]
 tags = []
 categories = []
 readingTime = 5  
-hero = "/images/winpasscracking.webp"
+hero = "/images/winpasscracking.jpg"
 +++
 
 # Authentication:
@@ -56,19 +56,22 @@ Interactive logon occurs through the interaction of different components:
 - **The logon user interface process (`LogonUI.exe`) and its credential providers:**  
   Winlogon relies on the credential providers installed on the system to obtain a user's account name or password. Credential providers are COM objects located inside DLLs. The default providers are `authui.dll`, `SmartcardCredentialProvider.dll`, and `FaceCredentialProvider.dll`, which support password, smartcard, PIN, and face-recognition authentication. Additional credential providers can be installed to enable Windows to use alternative user-identification mechanisms.
 
+
   ![Credential Providers](/images/credentialprovoders.png)
+
 
 - **`Lsass.exe` (Local Security Authority Subsystem Service):**  
   This is a user-mode process running the image of `Lsass.exe`, responsible for the local system security policy, user authentication, and sending security audit messages to the event log. This process loads the Local Security Authority service (`Lsasrv.dll`), a library that implements most of its functionality.
 
 - **One or more authentication packages:**  
-  Authentication packages are DLLs that perform authentication checks. For example:  
-  - `Kerberos` is the Windows authentication package for interactive logon to a domain.  
-  - `MSV1_0` is the Windows authentication package for interactive logon to a local computer, domain logons to trusted pre-Windows 2000 domains, and cases where no domain controller is accessible.
+Authentication packages are DLLs that perform authentication checks. For example:  
+1. `Kerberos` is the Windows authentication package for interactive logon to a domain.  
+2. `MSV1_0` is the Windows authentication package for interactive logon to a local computer, domain logons to trusted pre-Windows 2000 domains, and cases where no domain controller is accessible.
 
 - **SAM (Security Accounts Manager):**  
-  - **Service:** The SAM service is responsible for managing the database that contains the usernames and groups defined on the local machine. It is implemented in the `Samsrv.dll`, which is loaded into the `Lsass` process.  
-  - **Database:** The SAM database contains the defined local users and groups, along with their passwords and other attributes. On domain controllers, SAM does not store domain-defined users but holds the system’s administrator recovery account definition and password.
+1. **Service:** The SAM service is responsible for managing the database that contains the usernames and groups defined on the local machine. It is implemented in the `Samsrv.dll`, which is loaded into the `Lsass` process.  
+
+2. **Database:** The SAM database contains the defined local users and groups, along with their passwords and other attributes. On domain controllers, SAM does not store domain-defined users but holds the system’s administrator recovery account definition and password.
 
 - **Active Directory:**  
   On domain-joined systems, Active Directory is used for authentication, replacing the local SAM database for domain-defined users and groups.

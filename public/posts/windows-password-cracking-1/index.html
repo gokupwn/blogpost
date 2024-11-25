@@ -34,7 +34,7 @@ Yeah, and that&rsquo;s exactly what we call authentication. The person wants to 
 <meta property="og:url" content="http://localhost:1313/posts/windows-password-cracking-1/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content='http://localhost:1313/images/winpasscracking.webp'><meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content='http://localhost:1313/images/winpasscracking.jpg'><meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Windows Password Cracking - Part 1 | My Blog">
 
 	<link rel="canonical" href="http://localhost:1313/posts/windows-password-cracking-1/">
@@ -42,7 +42,7 @@ Yeah, and that&rsquo;s exactly what we call authentication. The person wants to 
 
 	<meta name="twitter:description" content="Authentication: Of course, you have heard this question from an aging person: &ldquo;Who are you? You are the child of who?&rdquo; (Enta eben min :p)
 Yeah, and that&rsquo;s exactly what we call authentication. The person wants to know, &ldquo;Who are you?&rdquo; Once they know who you are, they’ll say, &ldquo;Ohh, that&rsquo;s you, enter, enter.&rdquo; (In Lebanon, they’ll say, &ldquo;Ahhh, eben flen ta3a yl3an le7yet bayak&rdquo; – okay, at least in Baalbeck.">
-<meta name="twitter:image" content="http://localhost:1313/images/winpasscracking.webp">
+<meta name="twitter:image" content="http://localhost:1313/images/winpasscracking.jpg">
 <meta property="article:published_time" content="2024-11-25T12:34:24&#43;01:00">
 	<meta property="article:updated_time" content="2024-11-25T12:34:24&#43;01:00">
 
@@ -283,7 +283,7 @@ xmlns="http://www.w3.org/2000/svg"
         </header>
         
         <div class="article-hero-image" id="ArticleImage__Hero">
-            <img src="/images/winpasscracking.webp">
+            <img src="/images/winpasscracking.jpg">
         </div>
         
     </div>
@@ -351,22 +351,26 @@ This is a user-mode process running the image of <code>Lsass.exe</code>, respons
 <li>
 <p><strong>One or more authentication packages:</strong><br>
 Authentication packages are DLLs that perform authentication checks. For example:</p>
-<ul>
+</li>
+</ul>
+<ol>
 <li><code>Kerberos</code> is the Windows authentication package for interactive logon to a domain.</li>
 <li><code>MSV1_0</code> is the Windows authentication package for interactive logon to a local computer, domain logons to trusted pre-Windows 2000 domains, and cases where no domain controller is accessible.</li>
-</ul>
-</li>
-<li>
-<p><strong>SAM (Security Accounts Manager):</strong></p>
+</ol>
 <ul>
-<li><strong>Service:</strong> The SAM service is responsible for managing the database that contains the usernames and groups defined on the local machine. It is implemented in the <code>Samsrv.dll</code>, which is loaded into the <code>Lsass</code> process.</li>
-<li><strong>Database:</strong> The SAM database contains the defined local users and groups, along with their passwords and other attributes. On domain controllers, SAM does not store domain-defined users but holds the system’s administrator recovery account definition and password.</li>
+<li><strong>SAM (Security Accounts Manager):</strong></li>
 </ul>
+<ol>
+<li>
+<p><strong>Service:</strong> The SAM service is responsible for managing the database that contains the usernames and groups defined on the local machine. It is implemented in the <code>Samsrv.dll</code>, which is loaded into the <code>Lsass</code> process.</p>
 </li>
 <li>
-<p><strong>Active Directory:</strong><br>
-On domain-joined systems, Active Directory is used for authentication, replacing the local SAM database for domain-defined users and groups.</p>
+<p><strong>Database:</strong> The SAM database contains the defined local users and groups, along with their passwords and other attributes. On domain controllers, SAM does not store domain-defined users but holds the system’s administrator recovery account definition and password.</p>
 </li>
+</ol>
+<ul>
+<li><strong>Active Directory:</strong><br>
+On domain-joined systems, Active Directory is used for authentication, replacing the local SAM database for domain-defined users and groups.</li>
 </ul>
 
     </article>

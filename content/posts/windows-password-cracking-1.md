@@ -57,7 +57,7 @@ Interactive logon occurs through the interaction of different components:
   Winlogon relies on the credential providers installed on the system to obtain a user's account name or password. Credential providers are COM objects located inside DLLs. The default providers are `authui.dll`, `SmartcardCredentialProvider.dll`, and `FaceCredentialProvider.dll`, which support password, smartcard, PIN, and face-recognition authentication. Additional credential providers can be installed to enable Windows to use alternative user-identification mechanisms.
 
 
-  ![Credential Providers](/images/credentialprovoders.png)
+![Credential Providers](/images/credentialprovoders.png)
 
 
 - **`Lsass.exe` (Local Security Authority Subsystem Service):**  

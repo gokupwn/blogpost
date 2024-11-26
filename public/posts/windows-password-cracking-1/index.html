@@ -342,8 +342,10 @@ This is a trusted process responsible for managing security-related user interac
 <li>
 <p><strong>The logon user interface process (<code>LogonUI.exe</code>) and its credential providers:</strong><br>
 Winlogon relies on the credential providers installed on the system to obtain a user&rsquo;s account name or password. Credential providers are COM objects located inside DLLs. The default providers are <code>authui.dll</code>, <code>SmartcardCredentialProvider.dll</code>, and <code>FaceCredentialProvider.dll</code>, which support password, smartcard, PIN, and face-recognition authentication. Additional credential providers can be installed to enable Windows to use alternative user-identification mechanisms.</p>
-<p><img src="/images/credentialprovoders.png" alt="Credential Providers"></p>
 </li>
+</ul>
+<p><img src="/images/credentialprovoders.png" alt="Credential Providers"></p>
+<ul>
 <li>
 <p><strong><code>Lsass.exe</code> (Local Security Authority Subsystem Service):</strong><br>
 This is a user-mode process running the image of <code>Lsass.exe</code>, responsible for the local system security policy, user authentication, and sending security audit messages to the event log. This process loads the Local Security Authority service (<code>Lsasrv.dll</code>), a library that implements most of its functionality.</p>
